@@ -1,7 +1,7 @@
 var b = require('../lib/braggadocio');
 
 var URL = 'http://swagger.sprav-address-exceptions.hadar.backa.dev.yandex.net/api';
-b.createClient(URL)
+b.createClientFromUrl(URL, {logFn: console.log.bind(console)})
     .done(function (client) {
         client.ops.getAddressExceptions({offset: 10, limit: 30})
             .done(console.log.bind(console));
