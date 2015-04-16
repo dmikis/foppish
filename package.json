@@ -1,6 +1,6 @@
 {
   "name": "braggadocio",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Alternative client for Swagger APIs",
   "main": "lib/braggadocio.js",
   "scripts": {
