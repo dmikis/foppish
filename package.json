@@ -1,8 +1,8 @@
 {
-  "name": "braggadocio",
+  "name": "foppish",
   "version": "0.3.1",
   "description": "Alternative client for Swagger APIs",
-  "main": "lib/braggadocio.js",
+  "main": "lib/foppish.js",
   "scripts": {
     "test": "echo \"No tests\""
   },
